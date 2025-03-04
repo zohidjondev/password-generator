@@ -2,6 +2,7 @@
   font-family: Karla;
   padding: 0;
   margin: 0;
+  transition: all ease 300ms;
 }
 
 body {
@@ -45,6 +46,11 @@ body {
   background: #10b981;
   border: none;
   color: #fff;
+}
+
+.btn:hover {
+  background: #0d9467;
+  cursor: pointer;
 }
 
 .btn p {
